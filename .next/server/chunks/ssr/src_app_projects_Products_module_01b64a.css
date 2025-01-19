@@ -1,0 +1,116 @@
+/* [project]/src/app/projects/Products.module.css [app-client] (css) */
+.Products-module__5Joorq__container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.Products-module__5Joorq__notification, .Products-module__5Joorq__error {
+  margin: 10px 0;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.Products-module__5Joorq__notification {
+  background-color: green;
+}
+
+.Products-module__5Joorq__error {
+  background-color: red;
+}
+
+.Products-module__5Joorq__add-project {
+  margin-bottom: 20px;
+}
+
+.Products-module__5Joorq__add-project input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.Products-module__5Joorq__add-project button {
+  padding: 10px;
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.Products-module__5Joorq__add-project button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.Products-module__5Joorq__loading {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.Products-module__5Joorq__project-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Products-module__5Joorq__project-list th, .Products-module__5Joorq__project-list td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.Products-module__5Joorq__project-list th {
+  background-color: #f2f2f2;
+}
+
+.Products-module__5Joorq__pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products-module__5Joorq__pagination button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.Products-module__5Joorq__pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.Products-module__5Joorq__pagination span {
+  font-size: 1.2em;
+}
+
+.Products-module__5Joorq__modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products-module__5Joorq__modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.Products-module__5Joorq__modal button, .Products-module__5Joorq__pagination button, .Products-module__5Joorq__add-project button {
+  margin: 5px;
+}
+
+
+/*# sourceMappingURL=src_app_projects_Products_module_01b64a.css.map*/

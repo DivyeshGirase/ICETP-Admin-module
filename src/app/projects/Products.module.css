@@ -1,0 +1,119 @@
+/* Products.module.css */
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.notification, .error {
+  margin: 10px 0;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.notification {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+.add-project {
+  margin-bottom: 20px;
+}
+
+.add-project input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.add-project button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-project button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.loading {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.project-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.project-list th, .project-list td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.project-list th {
+  background-color: #f2f2f2;
+}
+
+/* Pagination styles */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 1.2em;
+}
+
+/* Modal overlay and modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+/* Scoped button styles */
+.modal button,
+.pagination button,
+.add-project button {
+  margin: 5px;
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/login/login.module.css"],"sourcesContent":["/* Center the login box in the viewport */\r\n.login-container {\r\n    height: 100vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    background-color: #f4f4f4;\r\n}\r\n\r\n/* Login box styling */\r\n.login-box {\r\n    width: 400px;\r\n    padding: 20px;\r\n    background-color: #fff;\r\n    border-radius: 8px;\r\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\r\n    text-align: center;\r\n}\r\n\r\n/* Input fields styling */\r\n.input-field {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-bottom: 10px;\r\n    border: 1px solid #ccc;\r\n    border-radius: 4px;\r\n}\r\n\r\n/* Error message styling */\r\n.error-message {\r\n    color: red;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n/* Login button styling */\r\n.login-button {\r\n    width: 100%;\r\n    padding: 10px;\r\n    background-color: #049336;\r\n    color: white;\r\n    border: none;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n}\r\n\r\n.login-button:disabled {\r\n    background-color: #ccc;\r\n    cursor: not-allowed;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;;AASA;;;;;;;;;AAUA;;;;;;;;AASA;;;;;AAMA;;;;;;;;;;AAUA"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Divyesh/Desktop/admin-module-nextjs/src/app/users/route.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\r\n\r\ninterface User {\r\n  id: number;\r\n  name: string;\r\n  email: string;\r\n}\r\n\r\nlet users: User[] = [\r\n  { id: 1, name: \"John Doe\", email: \"john@example.com\" },\r\n  { id: 2, name: \"Jane Doe\", email: \"jane@example.com\" },\r\n];\r\n\r\n// Handle GET request (fetch all users)\r\nexport async function GET() {\r\n  return NextResponse.json(users);\r\n}\r\n\r\n// Handle POST request (create a new user)\r\nexport async function POST(req: NextRequest) {\r\n  const { name, email } = await req.json();\r\n  const newUser: User = { id: users.length + 1, name, email };\r\n  users.push(newUser);\r\n\r\n  return NextResponse.json(newUser, { status: 201 });\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAQA,IAAI,QAAgB;IAClB;QAAE,IAAI;QAAG,MAAM;QAAY,OAAO;IAAmB;IACrD;QAAE,IAAI;QAAG,MAAM;QAAY,OAAO;IAAmB;CACtD;AAGM,eAAe;IACpB,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;AAC3B;AAGO,eAAe,KAAK,GAAgB;IACzC,MAAM,EAAE,IAAI,EAAE,KAAK,EAAE,GAAG,MAAM,IAAI,IAAI;IACtC,MAAM,UAAgB;QAAE,IAAI,MAAM,MAAM,GAAG;QAAG;QAAM;IAAM;IAC1D,MAAM,IAAI,CAAC;IAEX,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC,SAAS;QAAE,QAAQ;IAAI;AAClD"}},
+    {"offset": {"line": 88, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

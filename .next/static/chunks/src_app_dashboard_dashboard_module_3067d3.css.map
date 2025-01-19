@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Divyesh/Desktop/admin-module-nextjs/src/app/dashboard/dashboard.module.css"],"sourcesContent":["/* Container for the entire dashboard */\r\n.container {\r\n    padding: 20px;\r\n  }\r\n  \r\n  /* Styling for the cards container */\r\n  .cardsContainer {\r\n    display: flex;\r\n    flex-direction: row; /* Change layout to vertical */\r\n    gap: 20px; /* Add spacing between the cards */\r\n    align-items: center; /* Center align cards horizontally */\r\n  }\r\n  \r\n  /* Individual card styling */\r\n  .card {\r\n    width: 300px; /* Adjust width for better appearance */\r\n    height: 100px;\r\n    border-radius: 10px;\r\n    color: #fff;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n  }\r\n  "],"names":[],"mappings":"AACA;;;;AAKE;;;;;;;AAQA"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

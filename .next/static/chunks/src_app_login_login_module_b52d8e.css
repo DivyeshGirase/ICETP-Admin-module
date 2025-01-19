@@ -1,0 +1,47 @@
+/* [project]/src/app/login/login.module.css [app-client] (css) */
+.login-module__WEZH7G__login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.login-module__WEZH7G__login-box {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #0000001a;
+  text-align: center;
+}
+
+.login-module__WEZH7G__input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-module__WEZH7G__error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.login-module__WEZH7G__login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #049336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-module__WEZH7G__login-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=src_app_login_login_module_b52d8e.css.map*/
